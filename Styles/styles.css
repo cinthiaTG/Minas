@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+    color: #a72020;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+table {
+    background: slateblue;
+    border-collapse: collapse;
+}
+td {
+    border: rgba(0, 0, 0, 0.25) 1px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16pt;
+    cursor: pointer;
+}
+td.revealed {
+    background-color: lightgray;
+}
+td.mine {
+    background-color: red;
+}
+td.flag {
+    color: green;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #a72020;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14pt;
+}
+button:hover {
+    background-color: #7a1414;
+}
